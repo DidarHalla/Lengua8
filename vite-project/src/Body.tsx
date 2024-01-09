@@ -4,6 +4,13 @@ export function Body() {
   return (
     <>
       <div className="wrapper-body-blocks">
+        <div>
+          <img
+            className="img-panda-mobile"
+            src="/assets/Frame 1151.png"
+            alt="phone"
+          />
+        </div>
         <div className="text-block">
           <span className="span-big-text">Онлайн-языковой курс</span>
           <span>
@@ -11,21 +18,25 @@ export function Body() {
             кусочек! Запишитесь на бесплатные онлайн-языковые курсы на Lengua8,
             чтообы улучшить свои навыки
           </span>
+          <div className="wrapper-button-ios-android">
+            <img src="/assets/image 310.png" alt="" />
+            <img src="/assets/image 4google.png" alt="" />
+          </div>
         </div>
         <div>
           <img
             className="img-panda"
-            src="https://cdn.pixabay.com/photo/2023/05/07/04/47/panda-7975538_640.png"
-            alt=""
-          />
-          <input
-            className="try-free"
-            value="Попробуйте бесплатно"
-            type="button"
+            src="/assets/Frame 1151.png"
+            alt="phone"
           />
         </div>
       </div>
       <div className="wrapper-body-blocks">
+        <img
+          className="img-panda-mobile"
+          src="/assets/Курсы 12.png"
+          alt=""
+        />
         <div className="text-block">
           <span className="span-big-text">
             Курсы для приложения по изучению языка
@@ -40,14 +51,19 @@ export function Body() {
         </div>
         <img
           className="img-panda"
-          src="https://cdn.pixabay.com/photo/2023/05/07/04/47/panda-7975538_640.png"
+          src="/assets/Курсы 12.png"
           alt=""
         />
       </div>
       <div className="wrapper-body-blocks">
         <img
+          className="img-panda img-panda-mobile"
+          src="/assets/Курсы 13.png"
+          alt=""
+        />
+        <img
           className="img-panda"
-          src="https://cdn.pixabay.com/photo/2023/05/07/04/47/panda-7975538_640.png"
+          src="/assets/Курсы 13.png"
           alt=""
         />
         <div className="text-block">
@@ -64,6 +80,11 @@ export function Body() {
         </div>
       </div>
       <div className="wrapper-body-blocks">
+        <img
+          className="img-panda-mobile"
+          src="/assets/Курсы 14.png"
+          alt=""
+        />
         <div className="text-block">
           <span className="span-big-text">
             Библиотека для приложения по изучению языка
@@ -75,7 +96,7 @@ export function Body() {
         </div>
         <img
           className="img-panda"
-          src="https://cdn.pixabay.com/photo/2023/05/07/04/47/panda-7975538_640.png"
+          src="/assets/Курсы 14.png"
           alt=""
         />
       </div>
@@ -86,37 +107,84 @@ export function Body() {
           </span>
         </div>
         <div className="wrapper-body-main-icons">
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn-icons-png.flaticon.com/512/197/197374.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn.countryflags.com/thumbs/spain/flag-round-250.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn-icons-png.flaticon.com/512/323/323301.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn.countryflags.com/thumbs/russia/flag-round-250.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn-icons-png.flaticon.com/512/197/197375.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            border: "1px solid grey",
-            backgroundImage: "url(https://www.countryflags.com/wp-content/uploads/japan-flag-png-xl.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://www.countryflags.com/wp-content/uploads/italy-flag-png-xl.png)"
-          }}></div>
-          <div className="body-main-icons" style={{
-            backgroundImage: "url(https://cdn-icons-png.flaticon.com/512/197/197560.png)"
-          }}></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn-icons-png.flaticon.com/512/197/197374.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAACnCAMAAAAPIrEmAAAAMFBMVEUNXq////95ptMocLhelMpDgsH2+fyUuNzk7favyuVwoNCdvt85e72Yut3c6POOtNrdcYWaAAABI0lEQVR4nO3dS07EQAxF0UBDQ/Pd/24RM5pMjFBhk3fu3FJOKSMrn22rdL753kNp7gCho6NnhI6OnhE6OnpG6OjoGaH/lP5yO7ml9Kfd2KTQ0dHR0dGvQ0dHR0dHHxs6OnoI/bHSfu5cGXs9TW5bea7PtXuqK3R0dHR0dHR0dHR0dHT0sQXTL5X2qrfK2Pvd5Grnc8zdHDo6Ojo6+lXo6Ojo6OhjQ0dHR/81/XQ/uaX0I4SOjp4ROjp6Rujo6Bmho6P/+0oLjT39sniF8gctfXhsduiJoSeGnhh6YuiJoSeGnhh6Ysn07rfN+upeDUqSJEmSJH2t+8vNfSXv5rovoC/0xNATQ08MPTH0xNATQ08MPbGt9cf3rXWvBiVJkiRJkvTZBzdBZUmA5Y01AAAAAElFTkSuQmCC)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn.countryflags.com/thumbs/spain/flag-round-250.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn-icons-png.flaticon.com/512/323/323301.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn.countryflags.com/thumbs/russia/flag-round-250.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn-icons-png.flaticon.com/512/197/197375.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              border: "1px solid grey",
+              backgroundImage:
+                "url(https://www.countryflags.com/wp-content/uploads/japan-flag-png-xl.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://www.countryflags.com/wp-content/uploads/italy-flag-png-xl.png)",
+            }}
+          ></div>
+          <div
+            className="body-main-icons"
+            style={{
+              backgroundImage:
+                "url(https://cdn-icons-png.flaticon.com/512/197/197560.png)",
+            }}
+          ></div>
         </div>
       </div>
       <div id="lengua8-it-is" className="wrapper-body-blocks">
@@ -125,6 +193,9 @@ export function Body() {
         </div>
         <div className="text-of-lengua8-it-is">
           <div className="text-in-lengua8">
+            <div className="little-pandas-mobile">
+              <img src="/assets/IMG_3506 15.png" alt="" />
+            </div>{" "}
             <span className="span-middle-text">
               1 - Предоставление структурированных курсов
             </span>
@@ -135,8 +206,14 @@ export function Body() {
               понять логику языка, освоить грамматику, улучшить свой словарный
               запас и развить навыки говорения, чтения и понимания на слух.
             </span>
+            <div className="little-pandas little-bottom-pantas">
+              <img src="/assets/IMG_3506 15.png" alt="" />
+            </div>{" "}
           </div>
-          <div className="div-margen-top text-in-lengua8">
+          <div className="text-in-lengua8">
+            <div className="little-pandas">
+              <img src="/assets/IMG_3506 16.png" alt="" />
+            </div>{" "}
             <span className="span-middle-text">
               2 - Интерактивные упражнения и задания
             </span>
@@ -149,6 +226,9 @@ export function Body() {
             </span>
           </div>
           <div className="text-in-lengua8">
+            <div className="little-pandas-mobile">
+              <img src="/assets/IMG_3506 17.png" alt="" />
+            </div>{" "}
             <span className="span-middle-text">
               3 - Словарный запас и грамматика
             </span>
@@ -158,8 +238,14 @@ export function Body() {
               расширить свой словарный запас, изучить правильное использование
               слов и фраз, а также понять основы грамматики языка.
             </span>
+            <div className="little-pandas little-bottom-pantas">
+              <img src="/assets/IMG_3506 17.png" alt="" />
+            </div>{" "}
           </div>
-          <div className="div-margen-top text-in-lengua8">
+          <div className="text-in-lengua8">
+            <div className="little-pandas">
+              <img src="/assets/IMG_3506 18 (1).png" alt="" />
+            </div>{" "}
             <span className="span-middle-text">
               4 - Проверка и коррекция ошибок
             </span>
@@ -177,18 +263,33 @@ export function Body() {
           <span className="span-big-text">
             Скачивайте приложение прямо сейчас!
           </span>
+          <div>
+            <img
+              className="img-panda-mobile"
+              src="/assets/Group 1049.png"
+              alt=""
+            />
+          </div>
+          <div className="wrapper-button-ios-android img-download-mobile">
+            <img src="/assets/image 310.png" alt="" />
+            <img src="/assets/image 4google.png" alt="" />
+          </div>
           <span>
             Изучайте языки по привычке с помощью увлекательных уроков размером с
             кусочек! Запишитесь на бесплатные онлайн-языковые курсы на Lengua8,
             чтообы улучшить свои навыки
           </span>
+          <div className="wrapper-button-ios-android img-download">
+            <img src="/assets/image 310.png" alt="" />
+            <img src="/assets/image 4google.png" alt="" />
+          </div>
         </div>
         <div>
-          <div className="phone-interface"></div>
-          <div className="wrapper-button-ios-android">
-            <input className="button-ios" value="IOS" type="button" />
-            <input className="button-android" value="ANDROID" type="button" />
-          </div>
+          <img
+            className="img-panda"
+            src="/assets/Group 1049.png"
+            alt=""
+          />
         </div>
       </div>
       <div className="wrapper-body-blocks wrapper-body-last-blocks">
