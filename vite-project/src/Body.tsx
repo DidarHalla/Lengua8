@@ -1,4 +1,5 @@
 import "./style/Body.css";
+import Frame from "../assets/Frame.png"
 
 export function Body() {
   return (
@@ -7,7 +8,7 @@ export function Body() {
         <div>
           <img
             className="img-panda-mobile"
-            src="/assets/Frame 1151.png"
+            src={Frame}
             alt="phone"
           />
         </div>
@@ -26,7 +27,7 @@ export function Body() {
         <div>
           <img
             className="img-panda"
-            src="/assets/Frame 1151.png"
+            src={Frame}
             alt="phone"
           />
         </div>
