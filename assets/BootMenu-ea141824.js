@@ -1,0 +1,1 @@
+import{j as r}from"./index-a98a06eb.js";function s(){return r.jsxs("div",{className:"wrapper",children:[r.jsx("a",{href:"./",children:"Главная"}),r.jsx("a",{href:"./",children:"О приложении"}),r.jsx("a",{href:"./",children:"Скачать приложение"}),r.jsx("a",{href:"./",children:"Вопросы"})]})}export{s as default};
