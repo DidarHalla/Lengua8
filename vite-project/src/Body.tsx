@@ -1,47 +1,46 @@
 import "./style/Body.css";
-import Frame from "../assets/Frame.png"
+import Frame from "../assets/Frame.png";
+import Group_1049 from "../assets/Group 1049.png";
+import image310 from "../assets/image 310.png";
+import image4google from "../assets/image 4google.png";
+import IMG_350615 from "../assets/IMG_3506 15.png";
+import IMG_350616 from "../assets/IMG_3506 16.png";
+import IMG_350617 from "../assets/IMG_3506 17.png";
+import IMG_350618 from "../assets/IMG_3506 18 (1).png";
+import Курсы12 from "../assets/Курсы 12.png";
+import Курсы13 from "../assets/Курсы 13.png";
+import Курсы14 from "../assets/Курсы 14.png";
 
 export function Body() {
   return (
     <>
       <div className="wrapper-body-blocks">
-        <div>
-          <img
-            className="img-panda-mobile"
-            src={Frame}
-            alt="phone"
-          />
+        <div className="double-img-panda-mobile">
+          <img src={Frame} alt="phone" />
         </div>
         <div className="text-block">
-          <span className="span-big-text">Онлайн-языковой курс</span>
+          <span className="span-big-text">Приложение для изучения языков</span>
           <span>
-            Изучайте языки по привычке с помощью увлекательных уроков размером с
-            кусочек! Запишитесь на бесплатные онлайн-языковые курсы на Lengua8,
-            чтообы улучшить свои навыки
+            Изучайте языки с нами
+            <div className="speaking-club">
+              <li>игры</li>
+              <li>библиотека</li>
+              <li>Speaking club</li>
+            </div>
           </span>
-          <div className="wrapper-button-ios-android">
-            <img src="/assets/image 310.png" alt="" />
-            <img src="/assets/image 4google.png" alt="" />
+          <div className="wrapper-button-ios-android img-download-top">
+            <img id="dowland" src={image310} alt="" />
+            <img src={image4google} alt="" />
           </div>
         </div>
         <div>
-          <img
-            className="img-panda"
-            src={Frame}
-            alt="phone"
-          />
+          <img className="img-panda" src={Frame} alt="phone" />
         </div>
       </div>
       <div className="wrapper-body-blocks">
-        <img
-          className="img-panda-mobile"
-          src="/assets/Курсы 12.png"
-          alt=""
-        />
+        <img className="img-panda-mobile" src={Курсы12} alt="" />
         <div className="text-block">
-          <span className="span-big-text">
-            Курсы для приложения по изучению языка
-          </span>
+          <span className="span-big-text">Курсы</span>
           <span>
             это специально разработанные программы обучения, предлагаемые в
             рамках приложения, чтобы помочь пользователям освоить определенный
@@ -50,27 +49,13 @@ export function Body() {
             темам и концепциям
           </span>
         </div>
-        <img
-          className="img-panda"
-          src="/assets/Курсы 12.png"
-          alt=""
-        />
+        <img className="img-panda" src={Курсы12} alt="" />
       </div>
       <div className="wrapper-body-blocks">
-        <img
-          className="img-panda img-panda-mobile"
-          src="/assets/Курсы 13.png"
-          alt=""
-        />
-        <img
-          className="img-panda"
-          src="/assets/Курсы 13.png"
-          alt=""
-        />
+        <img className="img-panda img-panda-mobile" src={Курсы13} alt="" />
+        <img className="img-panda" src={Курсы13} alt="" />
         <div className="text-block">
-          <span className="span-big-text">
-            Игры для приложения по изучению языка
-          </span>
+          <span className="span-big-text">Игры</span>
           <span>
             это интерактивные развлекательные задания или активности,
             разработанные для помощи пользователям в улучшении своих языковых
@@ -81,25 +66,15 @@ export function Body() {
         </div>
       </div>
       <div className="wrapper-body-blocks">
-        <img
-          className="img-panda-mobile"
-          src="/assets/Курсы 14.png"
-          alt=""
-        />
+        <img className="img-panda-mobile" src={Курсы14} alt="" />
         <div className="text-block">
-          <span className="span-big-text">
-            Библиотека для приложения по изучению языка
-          </span>
+          <span className="span-big-text">Библиотека</span>
           <span>
             коллекция ресурсов, материалов и контента, предоставляемых в рамках
             приложения для помощи пользователям в изучении языка.
           </span>
         </div>
-        <img
-          className="img-panda"
-          src="/assets/Курсы 14.png"
-          alt=""
-        />
+        <img className="img-panda" src={Курсы14} alt="" />
       </div>
       <div id="wrapper-main-language-and-icons" className="wrapper-body-blocks">
         <div>
@@ -167,7 +142,6 @@ export function Body() {
           <div
             className="body-main-icons"
             style={{
-              border: "1px solid grey",
               backgroundImage:
                 "url(https://www.countryflags.com/wp-content/uploads/japan-flag-png-xl.png)",
             }}
@@ -190,12 +164,14 @@ export function Body() {
       </div>
       <div id="lengua8-it-is" className="wrapper-body-blocks">
         <div>
-          <span className="span-big-text">Lengua8 - это...</span>
+          <span id="about" className="span-big-text">
+            Lengua8 - это...
+          </span>
         </div>
         <div className="text-of-lengua8-it-is">
           <div className="text-in-lengua8">
             <div className="little-pandas-mobile">
-              <img src="/assets/IMG_3506 15.png" alt="" />
+              <img src={IMG_350615} alt="" />
             </div>{" "}
             <span className="span-middle-text">
               1 - Предоставление структурированных курсов
@@ -207,13 +183,13 @@ export function Body() {
               понять логику языка, освоить грамматику, улучшить свой словарный
               запас и развить навыки говорения, чтения и понимания на слух.
             </span>
-            <div className="little-pandas little-bottom-pantas">
-              <img src="/assets/IMG_3506 15.png" alt="" />
+            <div className="little-pandas little-bottom-pandas">
+              <img src={IMG_350615} alt="" />
             </div>{" "}
           </div>
           <div className="text-in-lengua8">
             <div className="little-pandas">
-              <img src="/assets/IMG_3506 16.png" alt="" />
+              <img src={IMG_350616} alt="" />
             </div>{" "}
             <span className="span-middle-text">
               2 - Интерактивные упражнения и задания
@@ -228,7 +204,7 @@ export function Body() {
           </div>
           <div className="text-in-lengua8">
             <div className="little-pandas-mobile">
-              <img src="/assets/IMG_3506 17.png" alt="" />
+              <img src={IMG_350617} alt="" />
             </div>{" "}
             <span className="span-middle-text">
               3 - Словарный запас и грамматика
@@ -239,13 +215,13 @@ export function Body() {
               расширить свой словарный запас, изучить правильное использование
               слов и фраз, а также понять основы грамматики языка.
             </span>
-            <div className="little-pandas little-bottom-pantas">
-              <img src="/assets/IMG_3506 17.png" alt="" />
+            <div id="panda3" className="little-pandas little-bottom-pandas">
+              <img src={IMG_350617} alt="" />
             </div>{" "}
           </div>
           <div className="text-in-lengua8">
             <div className="little-pandas">
-              <img src="/assets/IMG_3506 18 (1).png" alt="" />
+              <img src={IMG_350618} alt="" />
             </div>{" "}
             <span className="span-middle-text">
               4 - Проверка и коррекция ошибок
@@ -261,40 +237,31 @@ export function Body() {
       </div>
       <div className="wrapper-body-blocks">
         <div className="text-block text-block-penultimate-child">
-          <span className="span-big-text">
-            Скачивайте приложение прямо сейчас!
-          </span>
+          <span className="span-big-text">Изучайте языки с нами!</span>
           <div>
-            <img
-              className="img-panda-mobile"
-              src="/assets/Group 1049.png"
-              alt=""
-            />
+            <img className="img-panda-mobile" src={Group_1049} alt="" />
           </div>
           <div className="wrapper-button-ios-android img-download-mobile">
-            <img src="/assets/image 310.png" alt="" />
-            <img src="/assets/image 4google.png" alt="" />
+            <img src={image310} alt="" />
+            <img src={image4google} alt="" />
           </div>
           <span>
-            Изучайте языки по привычке с помощью увлекательных уроков размером с
-            кусочек! Запишитесь на бесплатные онлайн-языковые курсы на Lengua8,
-            чтообы улучшить свои навыки
+            Убери запишитесь на бесплатные онлайн языковые курсы потому что у
+            нас не школа мы приложение все построено на ии
           </span>
           <div className="wrapper-button-ios-android img-download">
-            <img src="/assets/image 310.png" alt="" />
-            <img src="/assets/image 4google.png" alt="" />
+            <img src={image310} alt="" />
+            <img src={image4google} alt="" />
           </div>
         </div>
         <div>
-          <img
-            className="img-panda"
-            src="/assets/Group 1049.png"
-            alt=""
-          />
+          <img className="img-panda" src={Group_1049} alt="" />
         </div>
       </div>
       <div className="wrapper-body-blocks wrapper-body-last-blocks">
-        <span className="span-big-text">Вопросы и ответы</span>
+        <span id="questions" className="span-big-text">
+          Вопросы и ответы
+        </span>
         <div>
           <span>1</span>
           <span>

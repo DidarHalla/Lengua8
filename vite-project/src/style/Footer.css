@@ -23,12 +23,13 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .footer {
+  .footer{
     display: block;
   }
 
-  .footer > div {
-    margin-left: 5%;
+  .wrapper-footer-download-icon {
+    width: 300px;
     display: flex;
+    justify-content: space-between;
   }
 }
